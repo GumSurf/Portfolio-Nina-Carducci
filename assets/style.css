@@ -24,6 +24,32 @@ body {
 	font-size: 26px;
 }
 
+li a
+{
+    display: block;
+    position: relative;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.3s, transform 0.3s;
+}
+
+li a:hover
+{
+    border-bottom-color: #E1C523;
+    transform: translateY(5px);
+}
+
+.social-link
+{
+    position: relative;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.3s, transform 0.3s;
+}
+
+.social-link:hover
+{
+    border-bottom-color: transparent;
+}
+
 .nav ul {
 	display: flex;
 	list-style-type: none;
@@ -97,10 +123,6 @@ body {
 	font-size: 14px;
 }
 
-#gallery {
-	/*	min-height: 100vh; */
-}
-
 .title{
 	text-align: center;
 	padding-block: 2em;
@@ -112,12 +134,12 @@ body {
 
 .nav-link.clicked
 {
-    background-color: #615400;
+    background-color: #E1C523;
 }
 
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
 	color: #fff;
-	background-color: #615400;
+	background-color: #E1C523;
 	border-radius:0 ;
 }
 
