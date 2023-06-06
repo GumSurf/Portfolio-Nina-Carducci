@@ -7,12 +7,10 @@ function main() {
                 // Réinitialiser la couleur de tous les éléments
                 elements.forEach(function (el) {
                     el.style.backgroundColor = "";
-                    el.style.color = "#000000";
                 });
 
                 // Changer la couleur de l'élément cliqué
-                element.style.backgroundColor = "#615400";
-                element.style.color = "#ffffff";
+                element.style.backgroundColor = "#E1C523";
             });
         });
     }
