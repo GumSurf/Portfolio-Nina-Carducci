@@ -17,11 +17,14 @@
     <meta property="og:title" content="Nina Carducci Photographe Professionnel" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://gumsurf.github.io/Portfolio-Nina-Carducci/" />
-    <meta property="og:image" content="https://gumsurf.github.io/Portfolio-Nina-Carducci/assets/images/images600/nina.png.webp" />
-    <meta name="twitter:card" content="https://gumsurf.github.io/Portfolio-Nina-Carducci/assets/images/images600/nina.png.webp">
+    <meta property="og:image"
+        content="https://gumsurf.github.io/Portfolio-Nina-Carducci/assets/images/images600/nina.png.webp" />
+    <meta name="twitter:card"
+        content="https://gumsurf.github.io/Portfolio-Nina-Carducci/assets/images/images600/nina.png.webp">
     <meta name="twitter:title" content="Portfolio Nina Carducci">
     <meta name="twitter:description" content="Site web Portfolio de la photographe professionnel Nina Carducci">
-    <meta name="twitter:image" content="https://gumsurf.github.io/Portfolio-Nina-Carducci/assets/images/images600/nina.png.webp">
+    <meta name="twitter:image"
+        content="https://gumsurf.github.io/Portfolio-Nina-Carducci/assets/images/images600/nina.png.webp">
     <meta name="description"
         content="Découvrez mon site web portfolio ! Je suis Nina Carducci, une photographe passionnée capturant l'émotion et la beauté authentique de chaque sujet.
         Plongez dans mon univers visuel unique où chaque image raconte une histoire : portraits saisissants, paysages époustouflants et instantanés de la vie quotidienne.
@@ -35,14 +38,14 @@
             <h1 class="name">Nina Carducci</h1>
             <nav class="nav">
                 <ul>
-                    <li><a href="#about">À propos</a></li>
-                    <li><a href="#gallery">Galerie</a></li>
-                    <li><a href="#services">Service</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                    <li>
+                    <li itemprop="name"><a href="#about">À propos</a></li>
+                    <li itemprop="name"><a href="#gallery">Galerie</a></li>
+                    <li itemprop="name"><a href="#services">Service</a></li>
+                    <li itemprop="name"><a href="#contact">Contact</a></li>
+                    <li itemprop="name">
                         <a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr"
                             target="_blank" aria-label="Compte Instagram de Nina Carducci">
-                            <img src="assets/images/instagram.png.webp" alt="Logo Instagram">
+                            <img itemprop="image" src="assets/images/instagram.png.webp" alt="Logo Instagram">
                         </a>
                     </li>
                 </ul>
@@ -99,75 +102,72 @@
         </div>
     </header>
     <main>
-        <div id="about">
+        <div id="about" itemscope itemtype="http://schema.org/Person">
             <div class="picture left">
-                <img src='./assets/images/nina.png.webp' srcset='assets/images/images300/nina.png.webp 300w,
-                assets/images/images600/nina.png.webp 600w,
-                assets/images/images900/nina.png.webp 900w'
-                    sizes='(max-width: 600px) 100vw, (max-width: 900px) 50vw, 33vw' alt='Photo Portrait Nina Carducci'>
+                <img itemprop="image" src="./assets/images/nina.png.webp" srcset="assets/images/images300/nina.png.webp 300w, assets/images/images600/nina.png.webp 600w, assets/images/images900/nina.png.webp 900w" sizes="(max-width: 600px) 100vw, (max-width: 900px) 50vw, 33vw" alt="Photo Portrait Nina Carducci">
             </div>
             <div id="about-me">
                 <h2 class="about-me__title">A propos de moi</h2>
-                <p class="about-me__introduction">Devenir photographe était pour moi une évidence. Comme
-                    si j’y étais prédestiné. Saisir un moment, une émotion, une situation, un endroit, une lumière et
-                    les rendre immortels, voilà ce qui me fait vibrer.</p>
-                <p class="about-me__text">Nous passons notre vie à chercher le bonheur, et lorsque nous y touchons, nous n’avons qu’une envie :
-                    le figer au travers de photographies pour le savourer avec les personnes qui sont importantes à nos
-                    yeux, ou le partager au plus grand nombre.
-                    C’est ce que je vous propose : saisir ces merveilleux moments au travers de mon regard, mon
-                    approche, ma technique. Rendre ces moments immortels, afin que vous puissiez y puiser de l’amour, du
-                    bonheur, de la tendresse et de lumière à chaque fois que vous poserez les yeux sur vos photos.</p>
+                <p class="about-me__introduction" itemprop="description">Devenir photographe était pour moi une 
+                    évidence. Comme si j’y étais prédestiné. Saisir un moment, une émotion, une situation, un endroit, 
+                    une lumière et les rendre immortels, voilà ce qui me fait vibrer.</p>
+                <p class="about-me__text">Nous passons notre vie à chercher le bonheur, et lorsque nous y touchons, 
+                    nous n’avons qu’une envie : le figer au travers de photographies pour le savourer avec les 
+                    personnes qui sont importantes à nos yeux, ou le partager au plus grand nombre. C’est ce que je 
+                    vous propose : saisir ces merveilleux moments au travers de mon regard, mon approche, ma technique. 
+                    Rendre ces moments immortels, afin que vous puissiez y puiser de l’amour, du bonheur, de la 
+                    tendresse et de lumière à chaque fois que vous poserez les yeux sur vos photos.</p>
             </div>
         </div>
         <div id="gallery">
             <h3 class="title">Portfolio</h3>
             <div class="container py-3">
                 <div class='gallery' style='display: none'>
-                    <img data-gallery-tag='Concert' class='gallery-item'
+                    <img itemprop="image" data-gallery-tag='Concert' class='gallery-item'
                         src='./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash.jpg.webp' srcset='assets/images/images300/aaron-paul-wnX-fXzB6Cw-unsplash.jpg.webp 300w,
                             assets/images/images600/aaron-paul-wnX-fXzB6Cw-unsplash.jpg.webp 600w,
                             assets/images/images900/aaron-paul-wnX-fXzB6Cw-unsplash.jpg.webp 900w'
                         sizes='(max-width: 600px) 100vw, (max-width: 900px) 50vw, 33vw'
                         alt="Concert Foulle Fond Rouge Bras En L'air" />
-                    <img data-gallery-tag='Entreprises' class='gallery-item'
+                    <img itemprop="image" data-gallery-tag='Entreprises' class='gallery-item'
                         src='./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash.jpg.webp' srcset='assets/images/images300/ali-morshedlou-WMD64tMfc4k-unsplash.jpg.webp 300w,
                             assets/images/images600/ali-morshedlou-WMD64tMfc4k-unsplash.jpg.webp 600w,
                             assets/images/images900/ali-morshedlou-WMD64tMfc4k-unsplash.jpg.webp 900w'
                         sizes='(max-width: 600px) 100vw, (max-width: 900px) 50vw, 33vw'
                         alt='Entreprises Homme Bien Habillé' />
-                    <img data-gallery-tag='Entreprises' class='gallery-item'
+                    <img itemprop="image" data-gallery-tag='Entreprises' class='gallery-item'
                         src='./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash.jpg.webp' srcset='assets/images/images300/jason-goodman-tHO1_OuKbg0-unsplash.jpg.webp 300w,
                             assets/images/images600/jason-goodman-tHO1_OuKbg0-unsplash.jpg.webp 600w,
                             assets/images/images900/jason-goodman-tHO1_OuKbg0-unsplash.jpg.webp 900w'
                         sizes='(max-width: 600px) 100vw, (max-width: 900px) 50vw, 33vw'
                         alt='Entreprises Femme Sourit' />
-                    <img data-gallery-tag='Mariages' class='gallery-item'
+                    <img itemprop="image" data-gallery-tag='Mariages' class='gallery-item'
                         src='./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash.jpg.webp' srcset='assets/images/images300/hannah-busing-RvF2R_qMpRk-unsplash.jpg.webp 300w,
                             assets/images/images600/hannah-busing-RvF2R_qMpRk-unsplash.jpg.webp 600w,
                             assets/images/images900/hannah-busing-RvF2R_qMpRk-unsplash.jpg.webp 900w'
                         sizes='(max-width: 600px) 100vw, (max-width: 900px) 50vw, 33vw' alt='Mariages Mains' />
-                    <img data-gallery-tag='Portrait' class='gallery-item'
+                    <img itemprop="image" data-gallery-tag='Portrait' class='gallery-item'
                         src='./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash.jpg.webp' srcset='assets/images/images300/ade-tunji-rVkhWWZFAtQ-unsplash.jpg.webp 300w,
                             assets/images/images600/ade-tunji-rVkhWWZFAtQ-unsplash.jpg.webp 600w,
                             assets/images/images900/ade-tunji-rVkhWWZFAtQ-unsplash.jpg.webp 900w'
                         sizes='(max-width: 600px) 100vw, (max-width: 900px) 50vw, 33vw'
                         alt='Portrait Homme Yeux Fermé' />
-                    <img data-gallery-tag='Mariages' class='gallery-item'
+                    <img itemprop="image" data-gallery-tag='Mariages' class='gallery-item'
                         src='./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash.jpg.webp' srcset='assets/images/images300/jakob-owens-SiniLJkXhMc-unsplash.jpg.webp 300w,
                             assets/images/images600/jakob-owens-SiniLJkXhMc-unsplash.jpg.webp 600w,
                             assets/images/images900/jakob-owens-SiniLJkXhMc-unsplash.jpg.webp 900w'
                         sizes='(max-width: 600px) 100vw, (max-width: 900px) 50vw, 33vw' alt='Mariages Hommes Femmes' />
-                    <img data-gallery-tag='Portrait' class='gallery-item'
+                    <img itemprop="image" data-gallery-tag='Portrait' class='gallery-item'
                         src='./assets/images/images900/nino-van-prattenburg-443cl1uR_8-unsplash.jpg.webp' srcset='assets/images/images300/nino-van-prattenburg-443cl1uR_8-unsplash.jpg.webp 300w,
                             assets/images/images600/nino-van-prattenburg-443cl1uR_8-unsplash.jpg.webp 600w,
                             assets/images/images900/nino-van-prattenburg-443cl1uR_8-unsplash.jpg.webp 900w'
                         sizes='(max-width: 600px) 100vw, (max-width: 900px) 50vw, 33vw' alt='Portrait Femme Lunette' />
-                    <img data-gallery-tag='Concert' class='gallery-item'
+                    <img itemprop="image" data-gallery-tag='Concert' class='gallery-item'
                         src='./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash.jpg.webp' srcset='assets/images/images300/austin-neill-hgO1wFPXl3I-unsplash.jpg.webp 300w,
                             assets/images/images600/austin-neill-hgO1wFPXl3I-unsplash.jpg.webp 600w,
                             assets/images/images900/austin-neill-hgO1wFPXl3I-unsplash.jpg.webp 900w'
                         sizes='(max-width: 600px) 100vw, (max-width: 900px) 50vw, 33vw' alt='Concert Chanteur' />
-                    <img data-gallery-tag='Entreprises' class='gallery-item'
+                    <img itemprop="image" data-gallery-tag='Entreprises' class='gallery-item'
                         src='./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash.jpg.webp'
                         srcset='assets/images/images300/mateus-campos-felipe-Fsgzm8N0hIY-unsplash.jpg.webp 300w,
                             assets/images/images600/mateus-campos-felipe-Fsgzm8N0hIY-unsplash.jpg.webp 600w,
@@ -190,63 +190,58 @@
         <div id="services">
             <h2 class="title">Mes services</h2>
             <div class="container">
-                <div class="service">
+                <div class="service" itemscope itemtype="http://schema.org/Organization">
                     <div class="service__description">
-                        <h3>Shooting photo</h3>
-                        <p>Pour capturer vos moments les plus précieux et garder un souvenir impérissable. Je me déplace
-                            en Île-de-France pour réaliser vos photos</p>
+                        <h3 itemprop="name">Shooting photo</h3>
+                        <p itemprop="description">Pour capturer vos moments les plus précieux et garder un souvenir impérissable. Je me déplace en Île-de-France pour réaliser vos photos</p>
                     </div>
                     <div class="service__price">
-                        <h4>350€/demi journée</h4>
-                        <span>Matériel, déplacement inclus</span>
-                    </div>
-
-                </div>
-                <div class="service">
-                    <div class="service__description">
-                        <h3>Retouches</h3>
-                        <p>Vous souhaitez retoucher vos photos pour un résultat professionnel ? Bénéficier d’un rendu
-                            optimal pour vos publications</p>
-                    </div>
-                    <div class="service__price">
-                        <h4>50€/photo</h4>
-                        <span>2 AR par photo</span>
+                        <h4 itemprop="priceRange">350€/demi journée</h4>
+                        <span itemprop="additionalProperty">Matériel, déplacement inclus</span>
                     </div>
                 </div>
-                <div class="service">
+                <div class="service" itemscope itemtype="http://schema.org/Organization">
                     <div class="service__description">
-                        <h3>Album photos</h3>
-                        <p>Partagez avec vos proches et vos clients les photos des moments partagés ensemble à travers
-                            un album photo personnalisé</p>
+                        <h3 itemprop="name">Retouches</h3>
+                        <p itemprop="description">Vous souhaitez retoucher vos photos pour un résultat professionnel ? Bénéficier d’un rendu optimal pour vos publications</p>
                     </div>
                     <div class="service__price">
-                        <h4>400€ album A4</h4>
-                        <span>30 pages recto/verso</span>
+                        <h4 itemprop="priceRange">50€/photo</h4>
+                        <span itemprop="additionalProperty">2 AR par photo</span>
+                    </div>
+                </div>
+                <div class="service" itemscope itemtype="http://schema.org/Organization">
+                    <div class="service__description">
+                        <h3 itemprop="name">Album photos</h3>
+                        <p itemprop="description">Partagez avec vos proches et vos clients les photos des moments partagés ensemble à travers un album photo personnalisé</p>
+                    </div>
+                    <div class="service__price">
+                        <h4 itemprop="priceRange">400€ album A4</h4>
+                        <span itemprop="additionalProperty">30 pages recto/verso</span>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="quote">
+        </div>        
+        <div class="quote" itemscope itemtype="http://schema.org/Quote">
             <figure>
                 <blockquote>
-                    <p class="quote__text">De manière inconsciente, je crois, je guette un regard, une expression, des
-                        traits ou une nostalgie capable de résumer ou plus exactement de révéler une vie</p>
+                    <p class="quote__text" itemprop="text">De manière inconsciente, je crois, je guette un regard, une expression, des traits ou une nostalgie capable de résumer ou plus exactement de révéler une vie</p>
                 </blockquote>
-                <figcaption class="quote__author">- Richard Avedon</figcaption>
+                <figcaption class="quote__author" itemprop="author">- Richard Avedon</figcaption>
             </figure>
-        </div>
+        </div>        
     </main>
     <footer>
-        <div id="contact">
+        <div id="contact" itemscope itemtype="http://schema.org/Organization">
             <div class="cordonnees">
-                <h2>Nina Carducci</h2>
+                <h2 itemprop="name">Nina Carducci</h2>
                 <span class="info-type">photographe</span>
-                <span class="info-adresse">68 avenue Alsace-Lorraine</span>
-                <span class="info-ville">33200 Bordeaux</span>
-                <span class="info-numero">05 56 67 78 89</span>
+                <span class="info-adresse" itemprop="address">68 avenue Alsace-Lorraine</span>
+                <span class="info-ville" itemprop="addressLocality">33200 Bordeaux</span>
+                <span class="info-numero" itemprop="telephone">05 56 67 78 89</span>
                 <p>Je réponds au téléphone du lundi au vendredi de 10 h à 19 h</p>
             </div>
-            <div class="container">
+            <div class="container" itemscope itemtype="http://schema.org/ContactPage">
                 <div class="form-container">
                     <h2>Une question ? Une demande de devis ?</h2>
                     <p> N’hésitez pas à m’écrire ! Je vous répondrais en moins de 24 heures</p>
@@ -268,7 +263,7 @@
                 </div>
             </div>
         </div>
-    </footer>
+    </footer>    
     <script src="./assets/bootstrap/bootstrap.bundle.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
