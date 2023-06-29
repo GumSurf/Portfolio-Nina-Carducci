@@ -15,32 +15,20 @@
         "postalCode": "33200",
         "addressCountry": "FR"
     },
-    "review": {
-        "@type": "Review",
-        "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "4",
-            "bestRating": "5"
-        },
-        "author": {
-            "@type": "Person",
-            "name": "Lillian Ruiz"
-        }
-    },
     "url": "https://gumsurf.github.io/Portfolio-Nina-Carducci/",
     "telephone": "0556677889",
     "openingHoursSpecification": [
         {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": [
-            "Monday",
-            "Tuesday",
-            "Wednesday",
-            "Thursday",
-            "Friday"
-          ],
-          "opens": "10:00",
-          "closes": "19:00"
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday"
+            ],
+            "opens": "10:00",
+            "closes": "19:00"
         }
     ],
     "sameAs": [
