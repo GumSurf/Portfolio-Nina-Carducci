@@ -10,11 +10,10 @@
     "description": "Bienvenue sur mon site web portfolio ! Je suis Nina Carducci, une photographe passionnée par la capture d'émotions et de moments précieux. À travers mon objectif, je cherche à immortaliser la beauté et l'authenticité qui se cachent dans chaque sujet. Parcourez mon portfolio captivant et plongez dans mon univers visuel unique, où chaque image raconte une histoire. Vous y trouverez des portraits saisissants, des paysages époustouflants et des instantanés de la vie quotidienne. Chacune de mes séries photographiques explore différents thèmes, techniques et styles, reflétant ma vision artistique en constante évolution. J'espère que mes images vous transporteront et éveilleront en vous des émotions profondes. Explorez mon travail et découvrez comment je saisis l'essence des moments précieux qui se déroulent devant mon objectif.",
     "address": {
         "@type": "PostalAddress",
-        "streetAddress": "148 W 51st St",
-        "addressLocality": "New York",
-        "addressRegion": "NY",
-        "postalCode": "10019",
-        "addressCountry": "US"
+        "streetAddress": "68 avenue Alsace-Lorraine",
+        "addressLocality": "Bordeaux",
+        "postalCode": "33200",
+        "addressCountry": "FR"
     },
     "review": {
         "@type": "Review",
