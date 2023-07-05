@@ -1,0 +1,1 @@
+function main(){var n=document.querySelectorAll(".nav-link");n&&n.forEach((function(o){o.addEventListener("click",(function(){n.forEach((function(n){n.style.backgroundColor=""})),o.style.backgroundColor="#E1C523"}))}))}setTimeout((function(){main()}),500);

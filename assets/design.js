@@ -1,1 +1,21 @@
-function main(){var n=document.querySelectorAll(".nav-link");n&&n.forEach((function(o){o.addEventListener("click",(function(){n.forEach((function(n){n.style.backgroundColor=""})),o.style.backgroundColor="#E1C523"}))}))}setTimeout((function(){main()}),500);
+function main() {
+    var elements = document.querySelectorAll(".nav-link");
+
+    if (elements) {
+        elements.forEach(function (element) {
+            element.addEventListener("click", function () {
+                // Réinitialiser la couleur de tous les éléments
+                elements.forEach(function (el) {
+                    el.style.backgroundColor = "";
+                });
+
+                // Changer la couleur de l'élément cliqué
+                element.style.backgroundColor = "#E1C523";
+            });
+        });
+    }
+}
+
+setTimeout(function () {
+    main();
+}, 500);
